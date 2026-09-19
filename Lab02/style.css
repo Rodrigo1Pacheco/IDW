@@ -15,8 +15,6 @@ body {
   padding: 15px;
 }
 
-/* 2. Tarjeta receptora (card) centrada, ancho máximo, fondo blanco, padding, bordes y sombra */
-form {
   background-color: #c9c7cc;
   max-width: 480px;
   width: 100%;
@@ -51,9 +49,6 @@ textarea {
   font-size: 14px;
 }
 
-/* 3. Estados interactivos con pseudo-clases CSS */
-
-/* :focus - Se activa cuando el usuario hace clic dentro de un input */
 input:focus,
 select:focus,
 textarea:focus {
@@ -62,7 +57,6 @@ textarea:focus {
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-/* Estilos para el botón de envío */
 button[type="submit"] {
   width: 100%;
   background-color: #007bff;
