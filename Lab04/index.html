@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gestor de Tareas Universitarias</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="App.js"></script>
+</head>
+<body>
+<main>
+  <h1>Gestor de Tareas Universitarias</h1>
+
+  <section>
+    <h2>Nueva tarea</h2>
+    <div id="alertas" role="alert"></div>
+    <form id="formTarea" novalidate>
+      <label>Título
+        <input type="text" id="titulo">
+      </label>
+      <label>Curso
+        <input type="text" id="curso">
+      </label>
+      <label>Fecha de entrega
+        <input type="date" id="fechaEntrega">
+      </label>
+      <button type="submit">Agregar tarea</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Mis tareas</h2>
+    <div class="filtros" id="filtros">
+      <button class="secundario activo" data-filtro="todas">Todas</button>
+      <button class="secundario" data-filtro="pendientes">Pendientes</button>
+      <button class="secundario" data-filtro="completadas">Completadas</button>
+    </div>
+    <ul id="listaTareas"></ul>
+  </section>
+</main>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
