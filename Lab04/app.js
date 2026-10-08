@@ -4,7 +4,7 @@ import {
   eliminarTarea, establecerFiltro, tareasFiltradas
 } from "./estado.js";
 import { validar } from "./validacion.js";
-import { guardar, cargar } from "./storage.js";
+import { guardar, cargar } from "./Storage.js";
 import { renderizar, mostrarAlertas, marcarFiltroActivo } from "./ui.js";
 
 const form = document.getElementById("formTarea");
