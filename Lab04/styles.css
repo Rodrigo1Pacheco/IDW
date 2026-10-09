@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: system-ui, "Segoe UI", sans-serif;
-  background: linear-gradient(135deg, #6366f1, #ec4899);
+  background: linear-gradient(135deg, #1f2937, #9ca3af);
   min-height: 100vh;
   color: #1f2937;
 }
@@ -11,7 +11,7 @@ body {
 main { max-width: 650px; margin: 0 auto; padding: 32px 16px; }
 
 h1 { color: #fff; text-align: center; }
-h2 { margin-top: 0; color: #4f46e5; }
+h2 { margin-top: 0; color: #334155; }
 
 section {
   background: #fff;
@@ -45,7 +45,7 @@ button {
 button:hover { background: #4f46e5; }
 
 .filtros { display: flex; gap: 8px; margin-bottom: 14px; }
-button.secundario { background: #e0e7ff; color: #4f46e5; }
+button.secundario { background: #e0e7ff; color: #334155; }
 button.secundario.activo { background: #ec4899; color: #fff; }
 
 #alertas:empty { display: none; }
