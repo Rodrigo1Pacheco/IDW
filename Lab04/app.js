@@ -50,6 +50,8 @@ contFiltros.addEventListener("click", (e) => {
   renderizar(tareasFiltradas(), acciones);
 });
 
-// Inicio
-establecerTareas(cargar());
-renderizar(tareasFiltradas(), acciones);
+// Inicio: al terminar de cargar el HTML, se restauran y dibujan las tareas guardadas.
+document.addEventListener("DOMContentLoaded", () => {
+  establecerTareas(cargar());
+  renderizar(tareasFiltradas(), acciones);
+});
